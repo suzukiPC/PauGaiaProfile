@@ -1,0 +1,261 @@
+﻿body, a, a:hover {
+}
+
+html, body {
+    background: url(https://cdn.discordapp.com/attachments/994824753594519572/995684597952172132/BG.png);
+}
+
+#gaia_header {
+    background: transparent !important;
+}
+
+#header_left, #header_right {
+    background: transparent !important;
+}
+
+#gaia_header a {
+    font-size: 15px;
+    color: rgba(255, 150, 255, 1) !important;
+    text-shadow: 0 0 2px magenta;
+    margin: 2px;
+    transition: 1s all;
+}
+
+    #gaia_header a:hover {
+        text-shadow: 0 0 1px magenta, 0 0 2px magenta;
+        text-decoration: none;
+        transition: 1s all;
+    }
+
+#header_left img {
+    width: 0;
+    background: url('http://i.imgur.com/md5RAI3.png') no-repeat;
+    padding: 0 45px 0 3px;
+    filter: drop-shadow(0 0 1px rgba(255, 0, 255, 0.9));
+    -webkit-filter: drop-shadow(0 0 1px rgba(255, 0, 255, 0.9));
+    transition: 1s all;
+}
+
+    #header_left img:hover {
+        filter: drop-shadow(0 0 2px rgba(255, 0, 255, 1));
+        -webkit-filter: drop-shadow(0 0 2px rgba(255, 0, 255, 1));
+        transition: 1s all;
+    }
+
+#gaia_header ul {
+    font-size: 15px;
+    font-family: 'BeonRegular', serif;
+    color: rgba(255, 150, 255, 1) !important;
+    text-shadow: 0 0 2px magenta;
+    font-weight: bolder;
+}
+
+#columns, #pictures_container, #texts_container {
+    width: 1100px;
+    margin-left: -550px;
+    left: 50%;
+    position: absolute;
+    top: 60px;
+    overflow: visible;
+}
+
+/*
+    this
+
+*/
+
+#column_1, #column_2, #column_3 {
+    width: 310px;
+    overflow: visible;
+    margin-left: 25px;
+}
+
+.panel {
+    font-family: 'Poiret One', sans-serif;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+    .panel a {
+        color: #FFF;
+    }
+
+    .panel h2 {
+        font-family: 'BeonRegular', serif;
+        font-size: 15px;
+        background: transparent;
+    }
+
+#column_1 .panel:nth-of-type(3n+1) {
+    background: rgba(255, 0, 255, 0.1);
+    border: 1px solid rgba(255, 150, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 0, 255, 0.9);
+}
+
+    #column_1 .panel:nth-of-type(3n+1) h2 {
+        color: rgba(255, 150, 255, 1);
+        text-shadow: 0 0 2px magenta;
+    }
+
+#column_2 .panel:nth-of-type(3n+1) {
+    background: rgba(255, 255, 0, 0.1);
+    border: 1px solid rgba(255, 255, 150, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 255, 0, 0.9)
+}
+
+#column_2 .panel:nth-of-type(3n+1) h2 {
+    color: rgba(255, 255, 150, 1);
+    text-shadow: 0 0 2px yellow;
+}
+
+#column_3 .panel:nth-of-type(3n+1) {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid rgba(150, 255, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(0, 255, 255, 0.9)
+}
+
+    #column_3 .panel:nth-of-type(3n+1) h2 {
+        color: rgba(150, 255, 255, 1);
+        text-shadow: 0 0 2px cyan;
+    }
+
+#column_1 .panel:nth-of-type(3n+2) {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid rgba(150, 255, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(0, 255, 255, 0.9)
+}
+
+    #column_1 .panel:nth-of-type(3n+2) h2 {
+        color: rgba(150, 255, 255, 1);
+        text-shadow: 0 0 2px cyan;
+    }
+
+#column_2 .panel:nth-of-type(3n+2) {
+    background: rgba(255, 0, 255, 0.1);
+    border: 1px solid rgba(255, 150, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 0, 255, 0.9);
+}
+
+    #column_2 .panel:nth-of-type(3n+2) h2 {
+        color: rgba(255, 150, 255, 1);
+        text-shadow: 0 0 2px magenta;
+    }
+
+#column_3 .panel:nth-of-type(3n+2) {
+    background: rgba(255, 255, 0, 0.1);
+    border: 1px solid rgba(255, 255, 150, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 255, 0, 0.9)
+}
+
+    #column_3 .panel:nth-of-type(3n+2) h2 {
+        color: rgba(255, 255, 150, 1);
+        text-shadow: 0 0 2px yellow;
+    }
+
+#column_1 .panel:nth-of-type(3n) {
+    background: rgba(255, 255, 0, 0.1);
+    border: 1px solid rgba(255, 255, 150, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 255, 0, 0.9)
+}
+
+    #column_1 .panel:nth-of-type(3n) h2 {
+        color: rgba(255, 255, 150, 1);
+        text-shadow: 0 0 2px yellow;
+    }
+
+#column_2 .panel:nth-of-type(3n) {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid rgba(150, 255, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(0, 255, 255, 0.9)
+}
+
+    #column_2 .panel:nth-of-type(3n) h2 {
+        color: rgba(150, 255, 255, 1);
+        text-shadow: 0 0 2px cyan;
+    }
+
+#column_3 .panel:nth-of-type(3n) {
+    background: rgba(255, 0, 255, 0.1);
+    border: 1px solid rgba(255, 150, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 0, 255, 0.9);
+}
+
+    #column_3 .panel:nth-of-type(3n) h2 {
+        color: rgba(255, 150, 255, 1);
+        text-shadow: 0 0 2px magenta;
+    }
+
+.forum_userstatus, #avatar_menu {
+    background: rgba(255, 0, 255, 0.2);
+    border: 1px solid rgba(255, 150, 255, 1);
+    box-shadow: 0 0 2px 1px rgba(255, 0, 255, 0.9);
+}
+
+    .forum_userstatus .online, .forum_userstatus .offline {
+        color: #FFF !important;
+        transition: 1s all;
+    }
+
+    .forum_userstatus .statuslinks {
+        background: url('http://i.imgur.com/w6VK4YO.png') top right no-repeat;
+        filter: drop-shadow(0 0 1px magenta);
+        -webkit-filter: drop-shadow(0 0 1px magenta);
+    }
+
+        .forum_userstatus .statuslinks span.online {
+            background: url(https://goo.gl/aaCbYo) no-repeat 0 0;
+            padding-left: 20px;
+            width: 80px;
+            height: 15px;
+            float: left;
+            color: pink;
+        }
+
+        .forum_userstatus .statuslinks span.offline {
+            background: url(https://goo.gl/rnupmo) no-repeat 0 0;
+            padding-left: 20px;
+            width: 80px;
+            height: 15px;
+            float: left;
+            color: #8fc0f7;
+        }
+
+    #avatar_menu a {
+        color: pink;
+        display: block;
+        font-size: 85%;
+        height: 1%;
+        padding: 2px;
+        margin: 1px;
+        text-decoration: none;
+        font-weight: normal;
+        text-align: left;
+    }
+
+.panel a {
+    font-family: 'Quicksand';
+    font-weight: normal;
+    color: #8fc0f7;
+    transition: 0.5s all;
+    font-size: 14px;
+}
+
+
+#columns, #texts_container, #pictures_container {
+    width: 1035px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+}
+
+
+#id_wishlist {
+    height: 200px;
+    overflow: hidden;
+}
+
+    #id_wishlist:hover {
+        overflow: auto;
+    }
