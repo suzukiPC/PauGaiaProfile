@@ -2,7 +2,8 @@
 }
 
 html, body {
-    background: url(https://cdn.discordapp.com/attachments/994824753594519572/995684597952172132/BG.png);
+    background-color: rgb(19, 19, 19);
+    background-image: url('https://cdn.discordapp.com/attachments/994824753594519572/995736340618551387/Cityscape.png');
 }
 
 #gaia_header {
@@ -61,13 +62,16 @@ html, body {
     width: 310px;
     overflow: visible;
     margin-left: 25px;
+    float: left;
 }
 
 .panel {
-    font-family: 'Poiret One', sans-serif;
+    font-family: Arcon, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     border-radius: 10px;
     color: #FFF;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
@@ -76,8 +80,11 @@ html, body {
     }
 
     .panel h2 {
-        font-family: 'BeonRegular', serif;
-        font-size: 15px;
+        font-family: Helsinki, sans-serif;
+        font-style: italic;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 20px;
         background: transparent;
     }
 
