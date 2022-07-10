@@ -4,6 +4,8 @@
 html, body {
     background-color: rgb(19, 19, 19);
     background-image: url('https://cdn.discordapp.com/attachments/994824753594519572/995736340618551387/Cityscape.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #gaia_header {
