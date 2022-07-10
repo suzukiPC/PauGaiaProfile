@@ -50,19 +50,12 @@ html, body {
     font-weight: bolder;
 }
 
-#columns, #pictures_container, #texts_container {
-    width: 1100px;
-    margin-left: -550px;
-    left: 50%;
+#columns, #texts_container, #pictures_container {
+    width: 1035px;
+    transform: translateX(-50%);
     position: absolute;
-    top: 60px;
-    overflow: visible;
+    left: 50%;
 }
-
-/*
-    this
-
-*/
 
 #column_1, #column_2, #column_3 {
     width: 310px;
@@ -242,15 +235,6 @@ html, body {
     font-size: 14px;
 }
 
-
-#columns, #texts_container, #pictures_container {
-    width: 1035px;
-    transform: translateX(-50%);
-    position: absolute;
-    left: 50%;
-}
-
-
 #id_wishlist {
     height: 200px;
     overflow: hidden;
@@ -258,4 +242,8 @@ html, body {
 
     #id_wishlist:hover {
         overflow: auto;
+    }
+
+    .dropBox {
+        margin: 5px;
     }
