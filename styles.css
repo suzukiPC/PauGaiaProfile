@@ -280,12 +280,22 @@ html, body {
     }
 
     #id_comments .deletecomment {
-        clear: both;
-        text-align: center;
+        float: right;
+        text-align: right;
     }
 
         #id_comments .deletecomment a {
-            font-size: smaller;
+            display: inline-block;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: x-small;
+            transition: 0.5s all;
+        }
+
+        #id_comments .deletecomment a:hover {
+            background-color: #ddd;
+            color: #000;
+            text-decoration: none;
         }
 
 #id_footprints {
