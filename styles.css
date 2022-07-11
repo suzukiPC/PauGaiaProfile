@@ -279,6 +279,11 @@ html, body {
         margin: 5px;
     }
 
+    #id_comments .dropBox img {
+        max-width: 48px;
+        height: auto;
+    }
+
     #id_comments .deletecomment {
         float: right;
         text-align: right;
@@ -288,7 +293,10 @@ html, body {
             display: inline-block;
             border: 1px solid #ddd;
             border-radius: 3px;
+            margin: 2px 0;
+            padding: 2px;
             font-size: x-small;
+            color: #ddd;
             transition: 0.5s all;
         }
 
@@ -296,6 +304,10 @@ html, body {
             background-color: #ddd;
             color: #000;
             text-decoration: none;
+        }
+
+        #id_comments .deletecomment br {
+            width: 1px;
         }
 
 #id_footprints {
