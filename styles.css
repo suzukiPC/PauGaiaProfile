@@ -281,6 +281,7 @@ html, body {
 
     #id_comments .dropBox img {
         max-width: 48px;
+        max-height: 96px;
         height: auto;
     }
 
