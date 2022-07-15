@@ -102,16 +102,14 @@ html, body {
     border-radius: 10px;
     margin: 0 12.5px 25px;
     padding: 15px;
-
     min-width: 278px;
     max-width: 623px;
-
     float: left;
 }
 
-.panel:last-child {
-    margin-bottom: 11px;
-}
+    .panel:last-child {
+        margin-bottom: 11px;
+    }
 
     .panel a {
         font-family: 'Quicksand', sans-serif;
@@ -292,12 +290,22 @@ html, body {
 
     #id_comments dl dt {
         clear: both;
+        display: none;
     }
+
+        #id_comments dl dt:nth-of-type(1), #id_comments dl dt:nth-of-type(2), #id_comments dl dt:nth-of-type(3), #id_comments dl dt:nth-of-type(4) {
+            display: block;
+        }
 
     #id_comments dl dd {
         margin: 0;
         padding: 0;
+        display: none;
     }
+
+        #id_comments dl dd:nth-of-type(1), #id_comments dl dd:nth-of-type(2), #id_comments dl dd:nth-of-type(3), #id_comments dl dd:nth-of-type(4) {
+            display: block;
+        }
 
     #id_comments .username a {
         font-size: 1.6rem;
@@ -309,11 +317,11 @@ html, body {
         margin: 5px;
     }
 
-    #id_comments .dropBox img {
-        max-width: 48px;
-        max-height: 96px;
-        height: auto;
-    }
+        #id_comments .dropBox img {
+            max-width: 48px;
+            max-height: 96px;
+            height: auto;
+        }
 
     #id_comments .deletecomment {
         max-width: 30%;
@@ -332,11 +340,11 @@ html, body {
             transition: 0.5s all;
         }
 
-        #id_comments .deletecomment a:hover {
-            background-color: #ddd;
-            color: #000;
-            text-decoration: none;
-        }
+            #id_comments .deletecomment a:hover {
+                background-color: #ddd;
+                color: #000;
+                text-decoration: none;
+            }
 
 #id_footprints {
 }
