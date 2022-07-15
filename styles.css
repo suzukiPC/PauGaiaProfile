@@ -73,17 +73,24 @@ html, body {
 /* CONTENT */
 
 #columns, #texts_container, #pictures_container {
-    width: 1035px;
+    width: 1005px;
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
 }
 
-#column_1, #column_2, #column_3 {
-    width: 310px;
+#column_1 {
+    width: 335px;
     overflow: visible;
-    margin-left: 25px;
+    margin: 0;
     float: left;
+}
+
+#column_2, #column_3 {
+    width: 670px;
+    overflow: visible;
+    margin: 0;
+    float: right;
 }
 
 .panel {
@@ -93,8 +100,17 @@ html, body {
     font-size: 1.6rem;
     color: #ddd;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin: 0 12.5px 25px;
     padding: 15px;
+
+    min-width: 278px;
+    max-width: 623px;
+
+    float: left;
+}
+
+.panel:last-child {
+    margin-bottom: 11px;
 }
 
     .panel a {
@@ -250,15 +266,28 @@ html, body {
     }
 
 #id_about {
+    width: 623px;
 }
 
 #id_aquarium {
+    display: none;
 }
 
 #id_signature {
+    /* display: none; */
+    width: 623px;
+}
+
+#id_friends {
+    display: none;
+}
+
+#id_journal {
+    width: 623px;
 }
 
 #id_comments {
+    width: 623px;
 }
 
     #id_comments dl dt {
@@ -316,10 +345,15 @@ html, body {
 }
 
 #id_gifts {
+    display: none;
 }
 
 /* MISCELLANEOUS */
 
 .date, .date a {
     font-size: 1rem;
+}
+
+.clear {
+    clear: both;
 }
