@@ -293,7 +293,7 @@ html, body {
         display: none;
     }
 
-        #id_comments dl dt:nth-of-type(1), #id_comments dl dt:nth-of-type(2), #id_comments dl dt:nth-of-type(3), #id_comments dl dt:nth-of-type(4) {
+        #id_comments dl dt:nth-of-type(1), #id_comments dl dt:nth-of-type(2), #id_comments dl dt:nth-of-type(3) {
             display: block;
         }
 
@@ -303,7 +303,7 @@ html, body {
         display: none;
     }
 
-        #id_comments dl dd:nth-of-type(1), #id_comments dl dd:nth-of-type(2), #id_comments dl dd:nth-of-type(3), #id_comments dl dd:nth-of-type(4) {
+        #id_comments dl dd:nth-of-type(1), #id_comments dl dd:nth-of-type(2), #id_comments dl dd:nth-of-type(3) {
             display: block;
         }
 
