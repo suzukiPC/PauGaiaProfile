@@ -103,7 +103,7 @@ html, body {
     margin: 0 12.5px 25px;
     padding: 15px;
     min-width: 278px;
-    max-width: 623px;
+    max-width: 613px;
     float: left;
 }
 
@@ -264,7 +264,7 @@ html, body {
     }
 
 #id_about {
-    width: 623px;
+    width: 613px;
 }
 
 #id_aquarium {
@@ -273,7 +273,7 @@ html, body {
 
 #id_signature {
     /* display: none; */
-    width: 623px;
+    width: 613px;
 }
 
 #id_friends {
@@ -285,7 +285,7 @@ html, body {
 }
 
 #id_comments {
-    width: 623px;
+    width: 613px;
 }
 
     #id_comments dl dt {
