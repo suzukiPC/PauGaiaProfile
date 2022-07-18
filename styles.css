@@ -356,6 +356,11 @@ html, body {
     display: none;
 }
 
+.custom_panel h2 {
+    margin: 0;
+    padding: 0;
+}
+
 /* MISCELLANEOUS */
 
 .date, .date a {
