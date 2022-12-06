@@ -23,53 +23,6 @@ html, body {
     background-attachment: fixed;
 }
 
-/* HEADER */
-
-#gaia_header {
-    background: transparent !important;
-}
-
-#header_left, #header_right {
-    background: transparent !important;
-}
-
-#gaia_header a {
-    font-size: 1.5rem;
-    color: rgba(255, 150, 255, 1) !important;
-    text-shadow: 0 0 2px magenta;
-    margin: 2px;
-    transition: 1s all;
-}
-
-    #gaia_header a:hover {
-        text-shadow: 0 0 1px magenta, 0 0 2px magenta;
-        text-decoration: none;
-        transition: 1s all;
-    }
-
-#header_left img {
-    width: 0;
-    background: url('http://i.imgur.com/md5RAI3.png') no-repeat;
-    padding: 0 45px 0 3px;
-    filter: drop-shadow(0 0 1px rgba(255, 0, 255, 0.9));
-    -webkit-filter: drop-shadow(0 0 1px rgba(255, 0, 255, 0.9));
-    transition: 1s all;
-}
-
-    #header_left img:hover {
-        filter: drop-shadow(0 0 2px rgba(255, 0, 255, 1));
-        -webkit-filter: drop-shadow(0 0 2px rgba(255, 0, 255, 1));
-        transition: 1s all;
-    }
-
-#gaia_header ul {
-    font-size: 1.5rem;
-    font-family: 'BeonRegular', serif;
-    color: rgba(255, 150, 255, 1) !important;
-    text-shadow: 0 0 2px magenta;
-    font-weight: bolder;
-}
-
 /* CONTENT */
 
 #columns, #texts_container, #pictures_container {
